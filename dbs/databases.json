@@ -1,0 +1,38 @@
+{
+  "baseUrl": "https://github.com/dhammanana/epitaka_downloads/raw/refs/heads/main/dbs/parts/",
+  "packages": {
+    "epitaka": {
+      "name": "Basic Database",
+      "targetFile": "epitaka.db.gz",
+      "parts": [
+        "epitaka.db.gz.part001",
+        "epitaka.db.gz.part002",
+        "epitaka.db.gz.part003",
+        "epitaka.db.gz.part004"
+      ]
+    },
+    "nissaya": {
+      "name": "Myanmar Nissaya",
+      "targetFile": "nissaya.db.gz",
+      "parts": [
+        "nissaya.db.gz.part001",
+        "nissaya.db.gz.part002",
+        "nissaya.db.gz.part003"
+      ]
+    },
+    "epitaka_th": {
+      "name": "Thai Translation",
+      "targetFile": "epitaka_th.db.gz",
+      "parts": [
+        "epitaka_th.db.gz.part001"
+      ]
+    },
+    "epitaka_en": {
+      "name": "English Translation",
+      "targetFile": "epitaka_en.db.gz",
+      "parts": [
+        "epitaka_en.db.gz.part001"
+      ]
+    }
+  }
+}
