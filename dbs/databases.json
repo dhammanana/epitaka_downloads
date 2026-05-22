@@ -1,37 +1,41 @@
 {
-  "baseUrl": "https://github.com/dhammanana/epitaka_downloads/raw/refs/heads/main/dbs/parts/",
+  "baseUrl": "https://raw.githubusercontent.com/dhammanana/epitaka_downloads/refs/heads/main/dbs/parts/",
   "packages": {
     "epitaka": {
       "name": "Basic Database",
       "targetFile": "epitaka.db.gz",
+      "totalSize": "167M",
       "parts": [
-        "epitaka.db.gz.part001",
-        "epitaka.db.gz.part002",
-        "epitaka.db.gz.part003",
-        "epitaka.db.gz.part004"
+        { "filename": "epitaka.db.gz.part001", "sizeInBytes": 47185920 },
+        { "filename": "epitaka.db.gz.part002", "sizeInBytes": 47185920 },
+        { "filename": "epitaka.db.gz.part003", "sizeInBytes": 47185920 },
+        { "filename": "epitaka.db.gz.part004", "sizeInBytes": 33554432 }
       ]
     },
     "nissaya": {
       "name": "Myanmar Nissaya",
       "targetFile": "nissaya.db.gz",
+      "totalSize": "88.7M",
       "parts": [
-        "nissaya.db.gz.part001",
-        "nissaya.db.gz.part002",
-        "nissaya.db.gz.part003"
+        { "filename": "nissaya.db.gz.part001", "sizeInBytes": 47185920 },
+        { "filename": "nissaya.db.gz.part002", "sizeInBytes": 45088768 },
+        { "filename": "nissaya.db.gz.part003", "sizeInBytes": 684032 }
       ]
     },
     "epitaka_th": {
       "name": "Thai Translation",
       "targetFile": "epitaka_th.db.gz",
+      "totalSize": "14M",
       "parts": [
-        "epitaka_th.db.gz.part001"
+        { "filename": "epitaka_th.db.gz.part001", "sizeInBytes": 14680064 }
       ]
     },
     "epitaka_en": {
       "name": "English Translation",
       "targetFile": "epitaka_en.db.gz",
+      "totalSize": "37M",
       "parts": [
-        "epitaka_en.db.gz.part001"
+        { "filename": "epitaka_en.db.gz.part001", "sizeInBytes": 38797312 }
       ]
     }
   }
