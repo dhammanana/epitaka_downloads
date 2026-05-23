@@ -37,6 +37,16 @@
       "parts": [
         { "filename": "epitaka_en.db.gz.part001", "sizeInBytes": 38797312 }
       ]
+    },
+    "epitaka_vi": {
+      "name": "Vietnamese Translation",
+      "targetFile": "epitaka_vi.db.gz",
+      "totalSize": "37M",
+      "parts": [
+        { "filename": "epitaka_vi.db.gz.part001", "sizeInBytes": 47185920 },
+        { "filename": "epitaka_vi.db.gz.part002", "sizeInBytes": 23112925 }
+      ]
     }
+
   }
 }
